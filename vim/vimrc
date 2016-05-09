@@ -1,0 +1,48 @@
+"
+" Nicolas Dufour's Vimrc
+"
+
+set nocompatible
+
+" General settings
+set backspace=indent,eol,start "Allow backspace in insert mode
+set encoding=utf-8
+set title
+set autoindent
+
+" Make sure you use tabs and display them as 4 spaces
+set shiftwidth=0
+set softtabstop=0
+set tabstop=4
+
+" =============== UI ================
+" Syntax highlighting
+syntax on
+
+set number    " Display line number
+set numberwidth=5
+set showmatch " Show matching brackets when text indicator is over them
+set showmode  " Display the current mode
+set hlsearch  " Highlight search results
+
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
+
+" Use one space, not two, after punctuation.
+set nojoinspaces
+
+" Make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
+
+" ================ Turn Off Swap Files ==============
+" Turn off backup files
+set noswapfile
+set nobackup
+set nowb
+
+filetype plugin indent on
+
+" Misc
+" Press F3 to turn on/off the automatic indent when pasting
+set pastetoggle=<F3>
