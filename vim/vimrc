@@ -19,6 +19,7 @@ set tabstop=4
 " Syntax highlighting
 syntax on
 
+set ruler
 set number    " Display line number
 set numberwidth=5
 set showmatch " Show matching brackets when text indicator is over them
@@ -34,6 +35,10 @@ set nojoinspaces
 " Make it obvious where 80 characters is -- Disabled
 " set textwidth=80
 " set colorcolumn=+1
+
+set bg=dark
+set laststatus=2
+highlight StatusLine ctermfg=blue ctermbg=white  " Highlight the status line
 
 " ================ Turn Off Swap Files ==============
 " Turn off backup files
