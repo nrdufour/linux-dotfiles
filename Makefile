@@ -2,7 +2,7 @@ all: install-shell install-vim install-git
 
 install-shell:
 	rm ~/.bashrc
-	ln -s `pwd`/bashrc ~/.bashrc
+	ln -s `pwd`/shell/bashrc ~/.bashrc
 
 install-vim:
 	rm -rf ~/.vim ~/.vimrc
@@ -11,5 +11,5 @@ install-vim:
 
 install-git:
 	rm ~/.gitconfig
-	ln -s `pwd`/gitconfig ~/.gitconfig
+	ln -s `pwd`/git/gitconfig ~/.gitconfig
 
