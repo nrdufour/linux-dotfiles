@@ -31,9 +31,9 @@ set list listchars=tab:»·,trail:·,nbsp:·
 " Use one space, not two, after punctuation.
 set nojoinspaces
 
-" Make it obvious where 80 characters is
-set textwidth=80
-set colorcolumn=+1
+" Make it obvious where 80 characters is -- Disabled
+" set textwidth=80
+" set colorcolumn=+1
 
 " ================ Turn Off Swap Files ==============
 " Turn off backup files
